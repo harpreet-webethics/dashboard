@@ -25,15 +25,48 @@ const TrendingStoryFeed = () => {
         labelDate: '27 Dec 2020'
       },
       heading: 'South Africa hammer injury-hit Sri Lanka Player'
+    },
+    {
+      imageUrl: TrendingStoryFeedImage,
+      label: {
+        labelName: 'Craig Bator -',
+        labelDate: '27 Dec 2020'
+      },
+      heading: 'South Africa hammer injury-hit Sri Lanka Player'
+    },
+    {
+      imageUrl: TrendingStoryFeedImage,
+      label: {
+        labelName: 'Craig Bator -',
+        labelDate: '27 Dec 2020'
+      },
+      heading: 'South Africa hammer injury-hit Sri Lanka Player'
+    },
+    {
+      imageUrl: TrendingStoryFeedImage,
+      label: {
+        labelName: 'Craig Bator -',
+        labelDate: '27 Dec 2020'
+      },
+      heading: 'South Africa hammer injury-hit Sri Lanka Player'
+    },
+    {
+      imageUrl: TrendingStoryFeedImage,
+      label: {
+        labelName: 'Craig Bator -',
+        labelDate: '27 Dec 2020'
+      },
+      heading: 'South Africa hammer injury-hit Sri Lanka Player'
     }
   ]
   return (
 
-    <div className="flex flex-col w-full xl:w-[35%] space-y-3">
+    <div className="flex flex-col w-full xl:w-[35%]">
+      <div className="max-h-[50vh] space-y-3">
       {
         TrendingStoryFeed.map((data, index) => {
           return (
-            <div className="w-full flex justify-start items-center" key={index}>
+            <div className="w-full flex justify-start items-center" key={index} >
               <div>
                 <Image
                   src={data.imageUrl}
@@ -59,6 +92,7 @@ const TrendingStoryFeed = () => {
           )
         })
       }
+      </div>
     </div>
   )
 }
