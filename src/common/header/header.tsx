@@ -20,7 +20,7 @@ const Header = () => {
     return (
         <header className="shadow">
             <div className="flex justify-between p-4 w-full ">
-                <div>
+                <div className="flex items-center justify-center">
                     <a href="#">
                         <Image
                             src={BurgurIcon}

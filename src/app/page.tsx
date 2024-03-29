@@ -26,7 +26,7 @@ export default function Home() {
             </h2>
           </div>
           {/* trending-stories-wrapper  */}
-          <div className="w-full overflow-y-scroll bg-white ">
+          <div className="w-full bg-white ">
             <div className="flex flex-col xl:flex-row justify-center items-start bg-white p-[15px] rounded">
               <TrendingStory/>
               <TrendingStoryFeed/>           

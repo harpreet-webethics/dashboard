@@ -61,8 +61,8 @@ const TrendingStoryFeed = () => {
   ]
   return (
 
-    <div className="flex flex-col w-full xl:w-[35%]">
-      <div className="max-h-[50vh] space-y-3">
+    <div className="flex flex-col w-full xl:w-[35%] overflow-y-auto">
+      <div className="md:max-h-[50vh] space-y-3">
       {
         TrendingStoryFeed.map((data, index) => {
           return (

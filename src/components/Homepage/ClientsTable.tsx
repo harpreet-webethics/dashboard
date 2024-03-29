@@ -12,7 +12,7 @@ const ClientsTable = () => {
                         <th scope="col" className="px-4 py-4 font-medium text-primary_800">Advisor</th>
                     </tr>
                 </thead>
-                <tbody  >
+                <tbody>
                     <tr className="odd:bg-white even:bg-[#F1F4EC]">
                         <td className="px-4 py-4">Pratik Test</td>
                         <td className="px-4 py-4 text-primary_800">$3.17</td>
@@ -48,6 +48,20 @@ const ClientsTable = () => {
                         <td className="px-4 py-4">2547896547</td>
                         <td className="px-4 py-4">Anthony Garrett</td>
                     </tr>
+                    <tr className="odd:bg-white even:bg-[#F1F4EC]">
+                        <td className="px-4 py-4">Pratik Test</td>
+                        <td className="px-4 py-4 text-primary_800">$3.17</td>
+                        <td className="px-4 py-4">example.ex@gamil.com</td>
+                        <td className="px-4 py-4">2547896547</td>
+                        <td className="px-4 py-4">Anthony Garrett</td>
+                    </tr>
+                    <tr className="odd:bg-white even:bg-[#F1F4EC]">
+                        <td className="px-4 py-4">Pratik Test</td>
+                        <td className="px-4 py-4 text-primary_800">$3.17</td>
+                        <td className="px-4 py-4">example.ex@gamil.com</td>
+                        <td className="px-4 py-4">2547896547</td>
+                        <td className="px-4 py-4">Anthony Garrett</td>
+                    </tr>                 
                 </tbody>
             </table>
         </div>

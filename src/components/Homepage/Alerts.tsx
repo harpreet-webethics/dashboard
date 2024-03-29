@@ -30,6 +30,12 @@ const Alerts = () => {
             heading: 'Ellie joined team developers',
             alertTime: '04 April,2021 | 04:00 PM',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus lobortis augue.',
+        },
+        {
+            image_url: AlertTringleImage,
+            heading: 'Ellie joined team developers',
+            alertTime: '04 April,2021 | 04:00 PM',
+            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Faucibus lobortis augue.',
         }
     ]
 

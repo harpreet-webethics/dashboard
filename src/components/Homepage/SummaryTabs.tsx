@@ -20,6 +20,7 @@ const SummaryTabs = () => {
                         tabList: "min-w-[500px] w-full p-0 border-b border-primary overflow-x-hidden",
                         tab: 'py-[30px] text-black',
                         tabContent: "group-data-[selected=true]:text-[white] text-primary_500 font-medium",
+                        panel:'px-0'
                     }}
                 >
                     <Tab key="photos" title="Total Assets" >
@@ -31,8 +32,8 @@ const SummaryTabs = () => {
                                         src={TotalAssets}
                                         alt="Total Assets"
                                         width={644}
-                                        height={295}
-                                        className="w-full max-w-[100%] xl:h-[295px]"
+                                        height={400}
+                                        className="w-full max-w-[100%] xl:h-[395px]"
                                     />
                                 </div>
                             </CardBody>
@@ -75,8 +76,8 @@ const SummaryTabs = () => {
                                     <div className="mx-auto max-w-screen-xl">
                                         {/* <!-- Start coding here --> */}
                                         <div className="bg-white dark:bg-gray-800 relative sm:rounded-lg overflow-hidden">
-                                            <WalletsTableHeader />
-                                            <ClientsTable />
+                                            <WalletsTableHeader/>
+                                            <ClientsTable/>
                                         </div>
                                     </div>
                                 </section>
